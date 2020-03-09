@@ -31,7 +31,6 @@ class App extends Component {
             }
           })
         })
-        console.log(this.state)
       } else {
         this.setState({
           currentUser: userAuth
@@ -45,7 +44,7 @@ class App extends Component {
   }
 
   render() {
-
+    console.log(this.state);
     return (
       <div>
         <Header currentUser={this.state.currentUser}/>

@@ -17,3 +17,5 @@ const FormInput = ({ handleChange, label, ...otherProps }) => {
 }
 
 export default FormInput;
+
+// not sure what ...otherProps does here and why it's required
